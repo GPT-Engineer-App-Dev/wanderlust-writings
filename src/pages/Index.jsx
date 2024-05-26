@@ -18,7 +18,8 @@ const Index = () => {
           Feel free to explore and connect with me through my posts.
         </Text>
         <Link href="/about" color="teal.500" fontSize="lg">Learn more about me</Link>
-      <Button colorScheme="teal" size="md" onClick={() => navigate('/add-post')}>Add New Post</Button>
+        <Button colorScheme="teal" size="md" onClick={() => navigate('/add-post')}>Add New Post</Button>
+        <Button colorScheme="red" size="md" onClick={() => navigate('/delete-post')}>Delete Post</Button> {/* Add button to navigate to delete post page */}
       </VStack>
     </Container>
   );
